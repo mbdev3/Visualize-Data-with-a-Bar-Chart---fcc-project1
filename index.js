@@ -124,7 +124,7 @@ const App = () => {
   return (
     <>
       <div id="title">
-        <h1>United States GDP chart</h1>
+        <h1>United States GDP </h1>
       </div>
       <div className="copyright">
         Made by
@@ -164,7 +164,6 @@ const App = () => {
             onMouseOut={(e) => onMouseOut(e)}
           />
         </g>
-        <title>US GDP</title>
       </svg>
     </>
   );
