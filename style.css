@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: 'Nunito', sans-serif;
+}
+
+pre {
+  font-size: 7em;
+}
+
+.tick line {
+  stroke: #C0C0BB;
+}
+
+.tick text {
+  fill: #635f5d;
+}
+
+.mark path {
+  stroke: #BC2E21;
+  stroke-width: 5;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+
+.mark rect {
+  fill: #B3c5AE;
+}
+
+.mark rect:hover {
+  fill: #fff;
+}
+
+.label {
+  fill: #635f5d;
+  font-size: 1.75em;
+}
+
+.tooldiv {
+  position: absolute;
+  background-color: rgba(179, 197, 174, 0.7);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #495057;
+  visibility: hidden;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #635f5d
+}
+
+#title h1 {
+  font-size: 1.75em;
+  text-align: center;
+  color: 635f5d;
+  margin: 0;
+}
+
+.copyright {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  right: 5px;
+  bottom: 10px
+}
+
+.copyright img {
+  width: 25px;
+  margin-left: 5px
+}
